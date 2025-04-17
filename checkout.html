@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Half Tales</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="books.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo.jpg" alt="Half Tales Logo" class="logo">
+                <h1>Half Tales</h1>
+            </div>
+            
+            <nav>
+                <ul class="hadder-but">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Checkout Content -->
+    <main class="checkout-page">
+        <div class="container">
+            <h2>Checkout</h2>
+            
+            <div class="checkout-container">
+                <!-- Order Summary -->
+                <section class="order-summary">
+                    <h3>Your Order</h3>
+                    <div class="cart-items" id="cartItems">
+                        <!-- Cart items will be loaded here -->
+                        <div class="empty-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>Your cart is empty</p>
+                            <a href="books.html" class="btn">Browse Books</a>
+                        </div>
+                    </div>
+                    
+                    <div class="order-totals">
+                        <div class="total-row">
+                            <span>Subtotal:</span>
+                            <span id="subtotal">₹0.00</span>
+                        </div>
+                        <div class="total-row">
+                            <span>Shipping:</span>
+                            <span>₹0.00</span>
+                        </div>
+                        <div class="total-row grand-total">
+                            <span>Total:</span>
+                            <span id="total">₹0.00</span>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Customer Information -->
+                <section class="customer-info">
+                    <h3>Customer Information</h3>
+                    <form id="checkoutForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Delivery Address *</label>
+                            <textarea id="address" name="address" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Complete Order via WhatsApp
+                        </button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Half Tales</h3>
+                    <p>We are passionate about books and committed to bringing the best reading experience to our customers.</p>
+                    <p>We offer quality books at half the price of retail stores.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Ghaziabad, UP</p>
+                    <p><i class="fas fa-phone"></i> +91 9376457792</p>
+                    <p><i class="fas fa-envelope"></i> mrpranaykr2004@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Half Tales. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="checkout.js"></script>
+</body>
+</html>

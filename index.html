@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Half Tales</title>
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Half Tales Logo" class="logo">
+            <h1>Half Tales</h1>
+        </div>
+        <nav>
+            <ul class="hadder-but">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2 style="color: aqua;">Discover Your Next Favorite Book</h2>
+                <p>Explore our vast collection of books at half prices</p>
+                <a href="books.html" class="btn">Browse Collection</a>
+            </div>
+        </section>
+
+        <section class="top-books">
+            <h2>Top Books Of The Month</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <img src="book1.jpg" alt="Book Cover">
+                    <h3>Gunahon Ka Devta</h3>
+                    <p class="author">by Dharamvir Bharati</p>
+                    
+                </div>
+                <div class="book-card">
+                    <img src="book2.jpg" alt="Book Cover">
+                    <h3>Godaan</h3>
+                    <p class="author">by प्रेमचन्द</p>
+                    
+                </div>
+                <div class="book-card">
+                    <img src="book3.jpg" alt="Book Cover">
+                    <h3>Maila Aanchal</h3>
+                    <p class="author">by फणीश्वरनाथ 'रेणु</p>
+                    
+                </div>
+                <div class="book-card">
+                    <img src="book4.jpg" alt="Book Cover">
+                    <h3>Nirmala</h3>
+                    <p class="author">by प्रेमचन्द</p>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="how-to-order">
+            <h2 style="color: yellow;">How to Order</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Browse Our Collection</h3>
+                    <p>Explore our wide range of books and find what you love.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Add to Cart</h3>
+                    <p>Select your desired books and add them to your shopping cart.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Checkout</h3>
+                    <p>Proceed to checkout and fill in your delivery details.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Enjoy Your Book</h3>
+                    <p>Receive your book and enjoy reading! within a week</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="error-solutions">
+            <h2>Can't Find Your Favorite Books???????</h2>
+            <div class="error-container">
+                <div class="error">
+                    <h3>Click On Contact</h3>
+                    <p>1.Click on contact</p>
+                    <p>2.get an form</p>
+                </div>
+                <div class="error">
+                    <h3>Fill The Query</h3>
+                    <p>1.fill the given details</p>
+                    <p>2.check before submit</p>
+                </div>
+                <div class="error">
+                    <h3>WWait for 3hrs.</h3>
+                    <p>1.our team grt back to you with in 3 hrs.</p>
+                    <p>2.we will diliver you book with in a week</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <h2>Why Choose Half Tales?</h2>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Wide Selection</h3>
+                    <p>Thousands of books across all genres</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-tag"></i>
+                    <h3>Affordable Prices</h3>
+                    <p>We offer quality books at minimum half the price of retail stores.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>Get your books delivered within a week.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Our team is always ready to assist you with any queries.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-container">
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <h2>Order/Contact Form</h2>
+                        <form id="whatsappOrderForm">
+                            <div class="form-group">
+                                <label for="name">Full Name*</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number*</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="book">Book Name/Query*</label>
+                                <input type="text" id="book" name="book" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="quantity">Quantity</label>
+                                <input type="number" id="quantity" name="quantity" min="1" value="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Delivery Address/Message*</label>
+                                <textarea id="address" name="address" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>i-56, sangam park, khora colony, gzb , u.p-201309</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+91 9376457792</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>mrpranaykr2004@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="social-media">
+                            <h3>Follow Us</h3>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                <a href="https://x.com/PranayKuma35714"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/half__tales?utm_source=qr"><i class="fab fa-instagram"></i></a>
+                                
+                            </div>
+                        </div>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d852.6562901208166!2d77.33552217539513!3d28.627530051939075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5296fe61e6f%3A0x2984f017b535e952!2s262%2C%20Sangam%20Park%20Khora%20Conoly%2C%20Rajeev%20Nagar%2C%20Khora%20Colony%2C%20Sector%2062A%2C%20Noida%2C%20Uttar%20Pradesh%20201309!5e0!3m2!1sen!2sin!4v1743326958055!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Half Tales</h3>
+                <p>We are passionate about books and committed to bringing the best reading experience to our customers.</p>
+                <p>We offer quality books at half the price of retail stores.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> i-56, sangam park, khora colony, gzb, u.p-201309</p>
+                <p><i class="fas fa-phone"></i> +91 9376457792</p>
+                <p><i class="fas fa-envelope"></i> mrpranaykr2004@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Half Tales. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
